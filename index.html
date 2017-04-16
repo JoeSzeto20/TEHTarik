@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
@@ -9,14 +8,17 @@
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        
+        <link rel="stylesheet" type="text/css" href="resources/css/colorbox.css">
+        
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
         <title>TEH Tarik</title>
     </head>
+    
     <body>
         <header>
             <nav>
                 <div class="row">
-                    
                     <ul class="main-nav">
                     <li><a href="#features">Story</a></li>
                     <li><a href="#works">Trailer</a></li>
@@ -27,14 +29,13 @@
                     <li><a href="#sketches">Sketches</a></li>
                     <li><a href="#plans">About Us</a></li>
                     </ul>
-                </div>
+                </div>  
             </nav>
             <div class="hero-text-box">
                 <h1>TEH Tarik</h1>
                 <a class="btn btn-full js--scroll-to-plans" href="#">Trailer</a>
                 <a class="btn btn-ghost js--scroll-to-start" href="#">Story</a>
             </div>
-
         </header>
         
         <section class="section-features js--section-features" id="features">
@@ -80,9 +81,12 @@
             <div class="video-text-box">
                 <h3>Trailer</h3>
             </div>
+            <div>
+                <a class="youtube btn btn-full video_btn" href="https://www.youtube.com/embed/hkI0yrIh78U">Video</a>
+            </div>
             <video preload="auto" loop="loop" autoplay="autoplay" class="video_block">
                 <source src="resources/video/bg.mp4"type="video/mp4">
-            </video>    
+            </video>  
         </section>
         
         
@@ -150,7 +154,7 @@
             </ul>
         </section>
         
-                <section class="section-meals" id="backgrounddesign">
+        <section class="section-meals" id="backgrounddesign">
             <h2>Background Design</h2>
             <ul class="meals-showcase clearfix">
                 <li>
@@ -277,7 +281,7 @@
                     <blockquote class="member-3">
                         <cite>
                             <img src="resources/img/KattKennedy.jpg">
-                            <h4>Katt Kennedy</h4>
+                            <h4>Septima</h4>
                             <h5>Composer</h5>
                         </cite>
                     </blockquote>
@@ -318,6 +322,10 @@
     <script src="https://cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
     <script src="resources/js/script.js"></script> 
     <script src="vendors/js/jquery.waypoints.min.js"></script>
+        
+    <script src="vendors/js/jquery.colorbox-min.js"></script>
+    <script src="resources/js/colorBox.js"></script>
+        
     </body>
     
 </html>
