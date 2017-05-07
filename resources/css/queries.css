@@ -7,6 +7,12 @@
     }
     
     .row{padding: 0 2%;}
+    
+        .video_btn{
+        font-size: 150%;
+        width: 25%;
+        height: 8%;
+    }
 }
 
 
@@ -42,6 +48,13 @@
     .plan-price{ font-size: 250%;}
     
     .contact-form{ width: 80%;}
+    
+    .video_btn{
+        font-size: 150%;
+        margin-left: 40%;
+        width: 15%;
+        height: 8%;
+    }
 }
 
 
@@ -51,6 +64,12 @@
     body{ font-size: 16px;}
     section{ padding: 30px 0;}
     
+    .hero-text-box{
+        margin-left: -5%;
+        width: 100%;
+        padding: 0 2%;
+    }
+    
     .row,
     .hero-text-box{ padding: 0 4%;}
     .col{ 
@@ -59,7 +78,10 @@
     }
     .main-nav{ display: none;}
     
-    h1{ font-size: 180%;}
+    h1{ 
+        margin-left: 6%;
+        font-size: 180%;
+    }
     h2{ font-size: 150%;}
     .long-copy{
         width: 100%;
@@ -81,6 +103,14 @@
     .steps-box:first-child{ text-align: center;}
     
     blockquote{margin-bottom: 30px;}
+    
+
+    .video_btn{
+        font-size: 150%;
+        margin-left: 38%;
+        width: 25%;
+        height: 8%;
+    }
 }
 
 
@@ -88,7 +118,23 @@
 
 @media only screen and (max-width:480px){
     
+        .hero-text-box{
+        margin-left: -15%;
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    h1{margin-left: 11%;}
+    
     section{ padding: 25px 0;}
     .contect-form{ width: 100%;}
+        .video_btn{font-size: 140%;}
+    
+    .video_btn{
+        margin-left: 37%;
+        font-size: 100%;
+        width: 25%;
+        height: 5%;
+    }
 }
 

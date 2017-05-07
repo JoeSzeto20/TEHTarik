@@ -201,20 +201,6 @@ header{
     transform: translate(-14%,-50%);
 }
 
-.logo {
-    height: 100px;
-    width: auto;
-    float: left;
-    margin-top: 20px;
-}
-.logo-black { 
-    display: none;
-    height: 50px;
-    width: auto;
-    float: left;
-    margin: 5px 0;
-}
-
 /*Main navi*/
 
 .main-nav{
@@ -604,8 +590,9 @@ footer p{
 
 .video_btn{
     position: absolute;
-    margin-left: 41%;
-    margin-top: 35%;
+    width: 1140px;
+    margin-left: 40%;
+    margin-top: 30%;
     width: 15%;
     height: 10%;
     text-align: center;
@@ -614,6 +601,49 @@ footer p{
 }
 
 
+
+.btn2:link,
+.btn2:visited,
+input[type=submit]{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full2:link,
+.btn-full2:visited,
+input[type=submit]{
+    background-color: #d17454;
+    border: 1px solid #d17454;
+    color: #fff;
+    margin-right: 15px;
+}
+.btn-ghost2:link,
+.btn-ghost2:visited {
+    border: 1px solid #d17454;
+    color: #d17454;
+}
+
+.btn2:hover,
+.btn2:active,
+input[type=submit]:hover,
+input[type=submit]:active{
+    background-color: #b75736;
+}
+
+.btn-full2:hover,
+.btn-full2:active,
+input[type=submit]{
+     border: 1px solid #b75736;
+}
+.btn-ghost2:hover,
+.btn-ghost2:active {
+    border: 1px solid #b75736;
+    color: #fff;
+}
 
 
 
