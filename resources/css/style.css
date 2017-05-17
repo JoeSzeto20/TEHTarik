@@ -195,10 +195,18 @@ header{
 
 .hero-text-box{
     position: absolute;
+    max-width: 300px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+/*
     width: 1140px;
     top:50%;
     left: 50%;
     transform: translate(-14%,-50%);
+*/
 }
 
 /*Main navi*/
@@ -563,7 +571,20 @@ footer p{
     height: auto;
 }
 
+.position-video-section{
+    text-align: center;
+    position: relative;
+}
 
+.video-btn-position{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 50px;
+}
 .video_block{
     width: 100%;
     height: auto;
@@ -589,15 +610,16 @@ footer p{
 }
 
 .video_btn{
-    position: absolute;
-    width: 1140px;
-    margin-left: 40%;
-    margin-top: 27%;
+
     width: 15%;
     height: 10%;
     text-align: center;
-    font-size: 200%;
+    font-size: 40px;
     z-index: 999;
+    top: 0;
+    left: 0;
+    margin: auto;
+    height: 72px !important;
 }
 
 
@@ -619,7 +641,6 @@ input[type=submit]{
     background-color: #d17454;
     border: 1px solid #d17454;
     color: #fff;
-    margin-right: 15px;
 }
 .btn-ghost2:link,
 .btn-ghost2:visited {
