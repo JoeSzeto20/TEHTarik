@@ -55,13 +55,13 @@ h1{
     margin: 0;
     margin-bottom: 20px;
     color: #fff;
-    font-size: 240%;
+    font-size: 50px;
     word-spacing: 4px;
     letter-spacing: 1px;
 }
 
 h2{
-    font-size: 180%;
+    font-size: 50px;
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 20px;
@@ -70,7 +70,7 @@ h2{
 }
 
 h3{
-    font-size: 110%;
+    font-size: 25px;
     margin-bottom: 15px;
     text-align: center;
 }
@@ -94,31 +94,17 @@ h2:after{
 }
 
 .box p{
-    font-size: 90%;
+    font-size: 20px;
     line-height: 145%;
 }
 
 /* ----- ICONS -----*/
 .icon-big{
-    font-size: 350%;
+    font-size: 100px;
     display: block;
     color: #d17454;
     margin-bottom: 10px;
     text-align: center;
-}
-
-.icon-small{
-    display: inline-block;
-    width: 30px;
-    text-align: center;
-    color: #d17454;
-    font-size: 120%;
-    margin-right: 10px;
-    
-    /*secrets to align text and icons*/
-    line-height: 120%;
-    vertical-align: middle;
-    margin-top: -5px;
 }
 
 /* ----- LINKS -----*/
@@ -228,7 +214,7 @@ header{
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 90%;
+    font-size: 18px;
     border-bottom: 2px solid transparent;
     transition: border-botton 0.2s;
 }
@@ -362,28 +348,6 @@ header{
     width: 40%;
 }
 
-.works-step{
-    margin-bottom: 50px;
-}
-
-.works-step:last-of-type{
-    margin-bottom: 80px;
-}
-
-.works-step div{
-    color: #d17454;
-    border: 2px solid #d17454;
-    display: inline-block;
-    border-radius: 50%;
-    height: 55px;
-    width: 55px;
-    text-align: center;
-    padding: 5px;
-    float: left;
-    font-size: 150%;
-    margin-right: 25px;
-}
-
 .btn-app:link,
 .btn-app:visited{
     border: 0;
@@ -428,7 +392,7 @@ blockquote {
 }
 
 cite{
-    font-size: 90%;
+    font-size: 20px;
     margin-top: 25px;
     display: block;
 }
@@ -442,12 +406,12 @@ cite img{
 
 cite h4{
     text-align: center;
-    font-size: 150%;
+    font-size: 30px;
     margin-top: 15px;
 }
 
 cite h5{
-    font-size: 100%;
+    font-size: 17px;
     font-weight: 100;
     text-align: center;
     margin-top: 8px;
@@ -471,12 +435,6 @@ cite a:active{
     transition: color 0.2s;
 }
 
-.about-us-icon{
-    border-bottom: 0;
-    font-size: 180%;
-    margin-right: 15px;
-}
-
 .about-us-fb{
     margin-left: 7px;
 }
@@ -488,7 +446,7 @@ cite a:active{
 footer{
     background-color: #050505;
     padding: 50px;
-    font-size: 100%;
+    font-size: 20px;
 }
 
 .footer-nav{
@@ -528,7 +486,7 @@ footer{
 
 .social-links li a:link,
 .social-links li a:visited{
-    font-size: 160%;
+    font-size: 50px;
 }
 
 .ion-footer-fb,
@@ -589,14 +547,6 @@ footer p{
     width: 100%;
     height: auto;
 
-}
-
-.video-text-box{
-    position: absolute;
-    color: #fff;
-    font-size: 300%;
-    margin-left: 40%;
-    margin-top: 23%;
 }
 
 .logo_video_bg{
