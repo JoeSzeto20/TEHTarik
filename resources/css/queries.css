@@ -109,6 +109,8 @@
     
     header{
     background-image:url(img/bg02.jpg);
+    width: 100%;
+    height: auto;
 }
     
     .hero-text-box{
