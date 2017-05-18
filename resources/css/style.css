@@ -542,6 +542,7 @@ footer p{
     bottom: 0;
     margin: auto;
     height: 50px;
+    z-index: 100;
 }
 .video_block{
     width: 100%;
