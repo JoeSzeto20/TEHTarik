@@ -1,0 +1,125 @@
+/*--- big tablets to 1200px (widths smaller that the 1140px row) ---*/
+
+@media only screen and (max-width:1200px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row{padding: 0 2%;}
+    
+        .video_btn{
+        width: 25%;
+        height: 8%;
+    }
+}
+
+
+/*--- Small tablets to big tablets : from 768 to 1023px ---*/
+
+@media only screen and (max-width:1023px){
+    
+    body{ font-size: 18px;}
+    section{ padding: 60px 0;}
+    
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .steps-box { margin-top: 10px;}
+    .steps-box:last-child { margin-top: 10px;}
+    .woks-step { margin-bottom: 40px;}
+    .works-step:last-of-type {margin-bottom: 60px;}
+    
+    .app-screen { width: 50%;}
+    
+    .icon-small{ 
+        width: 17px;
+        margin-right: 10px;
+    }
+    
+    .plan-box{
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    
+    .contact-form{ width: 80%;}
+    
+    .video_btn{
+        width: 15%;
+        height: 8%;
+    }
+}
+
+
+/*--- Small phone to small tablets: from 481 to 767px ---*/
+
+@media only screen and (max-width:767px){
+    body{ font-size: 16px;}
+    section{ padding: 30px 0;}
+    
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row,
+    .hero-text-box{ padding: 0 4%;}
+    .col{ 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .main-nav{ display: none;}
+    
+    .long-copy{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .woks-step { margin-bottom: 20px;}
+    .works-step:last-of-type {margin-bottom: 20px;}
+    
+    .works-step div{
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+    }
+    
+    .app-screen{ width: 40%;}
+    .steps-box:first-child{ text-align: center;}
+    
+    blockquote{margin-bottom: 30px;}
+    
+
+    .video_btn{
+        width: 25%;
+        height: 8%;
+    }
+}
+
+
+/*--- Small phone: from 0 to 480px ---*/
+
+@media only screen and (max-width:480px){
+    
+    body{ font-size: 20px;}
+        
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    section{ padding: 25px 0;}
+    .contect-form{ width: 100%;}
+    
+    .video_btn{
+        width: 50%;
+        line-height: 50px;
+    }
+    
+    
+}
+
